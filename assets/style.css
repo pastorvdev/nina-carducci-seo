@@ -2,6 +2,9 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+.carousel-item img {
+	height: auto;
+}
 * {
 	font-family: 'Inter';
 	font-style: normal;
@@ -69,7 +72,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
