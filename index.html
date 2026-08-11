@@ -33,6 +33,50 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+
+	<!-- Référencement local : microdonnées Schema.org (JSON-LD) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"@id": "https://pastorvdev.github.io/nina-carducci-seo/",
+		"name": "Nina Carducci",
+		"description": "Nina Carducci, photographe indépendante à Bordeaux. Shooting photo, retouches et albums personnalisés pour vos mariages, portraits, entreprises et concerts.",
+		"image": "https://pastorvdev.github.io/nina-carducci-seo/assets/images/nina-1200w.webp",
+		"url": "https://pastorvdev.github.io/nina-carducci-seo/",
+		"telephone": "+33556677889",
+		"priceRange": "50€ - 400€",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 44.8419,
+			"longitude": -0.6021
+		},
+		"openingHoursSpecification": [
+			{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			}
+		],
+		"sameAs": [
+			"https://www.instagram.com/ninacarducci.photo/"
+		]
+	}
+	</script>
 </head>
 <body>
 <div class="top-header">
