@@ -5,7 +5,7 @@ Site vitrine pour Nina carducci, photographe indépendante basée à Bordeaux, r
 
 Objectif du projet
 
-Auditer et améliorer un site existant sur trois axes : performance, référencement, accessibilité, tout en corrigeant le bugs fonctionnels identifiés.
+Auditer et améliorer un site existant sur trois axes : performance, référencement, accessibilité, tout en corrigeant les bugs fonctionnels identifiés.
 
 Performance
 
